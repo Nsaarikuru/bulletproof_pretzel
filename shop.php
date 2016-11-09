@@ -1,18 +1,4 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="Author" content="Niklas Saarikuru">
-<meta name="viewport" content="width=device-width">
-<title>Bulletproof Pretzels</title>
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/layout.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
 
-<body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="scripts/frontpage.js"></script>
 
 <?php include "template/header.php";?>
 <section id="main">
