@@ -9,19 +9,8 @@
 			<div class="shoparea">
 				
 			<?php 
-
-			while ($row = $kysely->fetch()) {
-				$name = htmlspecialchars($row["name"]);
-				$img = $row["img"];
-				$description = $row["description"];
-
-
-			echo "<hr>";
-		
-			echo "<h3>{$name} </h3>";
-			echo "<img src='template/".$row['img']."' />";
-			echo "<p>{$description} </p>";
-			}
+			require "model.php";
+			get_products();
 				
 			?>
 </section>
