@@ -1,8 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+	font-family: siteFont;
+	src: url(fonts/exo/exo-light.otf);
+}
 body {
-	font-family: Georgia, serif;
+	font-family: siteFont;
 	font-size: 100%;
 	color: #4e443c;
 	background-attachment: fixed;
